@@ -1,1 +1,192 @@
 # Matrika.ai
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrika AI Pathshala</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="India’s first AI-powered learning universe for students. Explore, chat, and learn with 3D, AR, and your personal AI tutor.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: radial-gradient(circle at 20% 20%, #0d47a1 60%, #1e2a78 100%);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem 1rem;
+    }
+    .logo {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #ffd600;
+      text-shadow: 2px 2px 12px #002b36;
+    }
+    .subtitle {
+      font-size: 1.3rem;
+      color: #b2cfff;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .cta-btn {
+      background: linear-gradient(90deg, #ffd600, #ff9800);
+      color: #222;
+      border: none;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: 0.9rem 2.5rem;
+      border-radius: 32px;
+      cursor: pointer;
+      box-shadow: 0 4px 16px #ffd60033;
+      margin-top: 1.5rem;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover {
+      background: linear-gradient(90deg, #ff9800, #ffd600);
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: 3rem auto 0 auto;
+      max-width: 1200px;
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.07);
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #0004;
+      padding: 2rem 1.5rem;
+      width: 320px;
+      min-height: 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1rem;
+      transition: transform 0.2s;
+    }
+    .feature-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 6px 18px #0006;
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffd600;
+      text-shadow: 0 2px 8px #222;
+    }
+    .feature-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 0.7rem;
+      color: #fff;
+    }
+    .feature-desc {
+      color: #b2cfff;
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .section-3d {
+      margin: 4rem auto;
+      max-width: 900px;
+      text-align: center;
+    }
+    .section-3d h2 {
+      color: #ffd600;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .video-frame {
+      width: 100%;
+      max-width: 600px;
+      aspect-ratio: 16/9;
+      border-radius: 18px;
+      overflow: hidden;
+      margin: 1.5rem auto;
+      box-shadow: 0 6px 24px #001;
+      border: 2px solid #ffd60077;
+    }
+    .footer {
+      background: #122;
+      color: #b2cfff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 900px) {
+      .features { flex-direction: column; align-items: center; }
+      .feature-card { width: 95%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Matrika AI Pathshala</div>
+    <div class="subtitle">Bharat ki Pehli AI-Powered Pathshala – Jahan Seekhna Hai Mazedaar aur Asaan!</div>
+    <button class="cta-btn" onclick="window.alert('Login/Signup coming soon!')">Shuru Karo</button>
+  </header>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon">🤖</div>
+      <div class="feature-title">AI Personal Tutor</div>
+      <div class="feature-desc">
+        Har sawal ka turant jawab. AI aapke level aur syllabus ke hisaab se samjhaye – jaise aapka khud ka teacher!
+      </div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🌌</div>
+      <div class="feature-title">3D/AR Space Explorer</div>
+      <div class="feature-desc">
+        Planets, stars, aur molecules ko 3D/AR mein ghuma kar dekho. Naam click karo, AI se unke baare mein poochho!
+      </div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🎮</div>
+      <div class="feature-title">Gamified Learning</div>
+      <div class="feature-desc">
+        Padhai ko banao game! Har chapter ke points, badges, leaderboard, aur quiz battle friends ke saath.
+      </div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📚</div>
+      <div class="feature-title">Assignment Auto-Checker</div>
+      <div class="feature-desc">
+        Apna homework upload karo, AI se instant feedback aur improvement tips pao!
+      </div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🧑‍🤝‍🧑</div>
+      <div class="feature-title">Study Buddy Groups</div>
+      <div class="feature-desc">
+        AI aapke liye perfect peer group banaye – live group chat, quiz battle, aur peer learning.
+      </div>
+    </div>
+  </div>
+
+  <div class="section-3d">
+    <h2>🌠 Dekhiye: Space Ka 3D Safar!</h2>
+    <p style="color:#b2cfff;font-size:1.1rem;">
+      Neeche diya gaya demo video dekhein – har planet aur star ka naam click kar sakte hain (full version mein). <br>
+      <i>(Aap apna khud ka 3D video ya AR experience bhi embed kar sakte hain!)</i>
+    </p>
+    <div class="video-frame">
+      <!-- Replace the YouTube link below with your own 3D/AR space video if available -->
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1wcrkxOgzhU" title="3D Solar System Tour" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 Matrika AI Pathshala • Powered by AI • <b>Adarsh Mani</b>
+    <br>
+    <span style="font-size:0.9em;color:#ffd600;">Sapne wahi sach hote hain jo jagte hue dekhe jaate hain.</span>
+  </div>
+</body>
+</html>
